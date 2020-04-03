@@ -1,0 +1,43 @@
+#search{
+    position: relative;
+    display: block;
+    width: 100%;
+  }
+  .compare-pokemon{
+    canvas.pk-stats{
+      position: relative;
+      display: inline-block;
+      width: 25%;
+      height: 90vh;
+      border: 1px solid grey;
+    }
+    
+    .pokemon{
+      position: relative;
+      display: inline-block;
+      width: 25%;
+      height: 90vh;
+      border: 1px solid black;
+      overflow: auto;
+  
+      img{
+        position: relative;
+        display: block;
+        width: 96px;
+        height: 96px;
+        object-fit: contain;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h2 {
+        span[name='name']{
+          display: inline-block;
+          
+          
+        }
+        span[name='name']::first-letter{
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
